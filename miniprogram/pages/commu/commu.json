@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "校内组织",
+  "usingComponents": {
+    "van-popup": "@vant/weapp/popup"
+  }
+}

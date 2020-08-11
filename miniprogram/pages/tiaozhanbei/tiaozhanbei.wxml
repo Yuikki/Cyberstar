@@ -1,0 +1,39 @@
+<view class="messages">
+  <view class="item" wx:for="{{messages}}" wx:key="id">
+      <text class="title">{{item.title}}</text>
+    <text class="summary">{{item.summary}}</text>
+    
+      <text class="title1">{{item.title1}}</text>
+    <text class="summary1">{{item.summary1}}</text>
+
+     <text class="title2">{{item.title2}}</text>
+    <text class="summary2">{{item.summary2}}</text>
+     <text class="title3">{{item.title3}}</text>
+    <text class="summary3">{{item.summary3}}</text>
+     <text class="title4">{{item.title4}}</text>
+    <text class="summary4">{{item.summary4}}</text>
+     <text class="title5">{{item.title5}}</text>
+    <text class="summary5">{{item.summary5}}</text>
+     <text class="title6">{{item.title6}}</text>
+    <text class="summary6">{{item.summary6}}</text>
+    <text class="title7">{{item.title7}}</text>
+    <text class="summary7">{{item.summary7}}</text>
+    <text class="title8">{{item.title8}}</text>
+    <text class="summary8">{{item.summary8}}</text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </view>
+</view>
+<view id="bottom"></view>

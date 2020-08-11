@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/commu/commu",
+    "pages/tiaozhanbei/tiaozhanbei",
+    "pages/xiaoneibisai/xiaoneibisai"
+  ],
+  "window": {
+    "backgroundColor": "#ebebeb",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#45ccf7",
+    "navigationBarTitleText": "赛小星 Cyberstar",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/a-off.png",
+        "selectedIconPath": "images/a-on.png"
+      },
+      {
+        "pagePath": "pages/commu/commu",
+        "iconPath": "images/b-off.png",
+        "selectedIconPath": "images/b-on.png"
+      }
+     
+    ]
+  },
+  
+  "sitemapLocation": "sitemap.json"
+}

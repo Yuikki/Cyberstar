@@ -1,0 +1,14 @@
+<view class="messages">
+  <view class="item" wx:for="{{messages}}" wx:key="id">
+    <navigator url="/pages/tiaozhanbei/tiaozhanbei">
+      <text class="title">{{item.title}}</text>
+    </navigator>
+    <navigator url="/pages/tiaozhanbei/tiaozhanbei">
+      <image src="{{item.image}}"/>
+    </navigator>   
+    
+  </view>
+</view>
+<view id="bottom"></view>
+
+
